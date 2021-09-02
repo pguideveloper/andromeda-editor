@@ -5,11 +5,13 @@ app.on('ready', function() {
     let window = new BrowserWindow({
         width: 800, 
         height: 600,
+        frame: false,
         titleBarStyle: "hiddenInset",
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: true,
             devTools: true,
+
         }
     });
     window.removeMenu();

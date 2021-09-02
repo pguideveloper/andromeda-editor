@@ -5,7 +5,9 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <link rel="stylesheet" href="./../styles/main.css">
+    <link rel="stylesheet" href="./../src/assets/styles/main.css">
+    <link rel="stylesheet" href="./../src/assets/styles/menu-bar.css">
+    <link rel="stylesheet" href="./../src/assets/styles/fontawesome/fontawesome/css/all.css">
     <script src="./../node_modules/codemirror/lib/codemirror.js"></script>
     <script src="./../node_modules/codemirror/mode/javascript/javascript.js"></script>
     <link rel="stylesheet" href="./../node_modules/codemirror/lib/codemirror.css">
@@ -13,8 +15,27 @@
     <title>Andromeda</title>
   </head>
   <body>
+    <div id="menu">
+        <div class="icon-and-actions">
+          <div class="icon"><i class="fas fa-terminal"></i></div>
+          <div class="actions">
+            <ul>
+              <li>Arquivo</li>
+              <li>Editar</li>
+            </ul>
+          </div>
+        </div>
+        <div class="window-actions">
+            <ul>
+              <li><i class="fas fa-window-minimize"></i></li>
+              <li><i class="far fa-window-maximize"></i></li>
+              <li><i class="fas fa-times fa-1x"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div class="div-bar"></div>
     <input type="text" id="editor">
   </body>
 
-  <script src="./../editor-config.js"></script>
+  <script src="./../src/editor-config.js"></script>
 </html>

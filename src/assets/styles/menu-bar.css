@@ -1,0 +1,62 @@
+#menu {
+    width: 100%; 
+    height: 30px;
+    background-color: #29292C   ;
+    -webkit-app-region: drag;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+    font-family: "Helvetica Neue",Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+#menu .icon-and-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu .icon-and-actions .icon {
+    margin-right: 15px;
+}
+
+#menu .icon-and-actions .actions ul{
+    list-style: none;
+}
+
+#menu .icon-and-actions .actions ul li {
+    display: inline;
+    margin-left: 5px;
+    -webkit-app-region: no-drag;
+}
+
+#menu .window-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu .window-actions ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu .window-actions ul li {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    -webkit-app-region: no-drag;
+    height: 30px;
+    width: 40px;
+}
+
+#menu .window-actions ul li:hover {
+    background-color: #3a3a3a;
+}
+

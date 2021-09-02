@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.div-bar {
+    width: 100%;
+    background-color: #222;
+    height: 30px;
+    display: block;
+}
+
+#editor {
+    background-color: #222;
+    opacity: 0.9;
+    color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    outline: none;
+    border: none;
+    resize: none;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.codeMirror {
+    padding-top: 10px;
+}
+
+.CodeMirror * {
+    font-family: 'Fira Code';
+    font-variant-ligatures: common-ligatures;
+    font-size: 14px;
+}
