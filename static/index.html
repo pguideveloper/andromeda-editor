@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="./../styles/main.css">
+    <script src="./../node_modules/codemirror/lib/codemirror.js"></script>
+    <script src="./../node_modules/codemirror/mode/javascript/javascript.js"></script>
+    <link rel="stylesheet" href="./../node_modules/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="./../node_modules/codemirror/theme/dracula.css">
+    <title>Andromeda</title>
+  </head>
+  <body>
+    <input type="text" id="editor">
+  </body>
+
+  <script src="./../editor-config.js"></script>
+</html>
