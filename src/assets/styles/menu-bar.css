@@ -25,12 +25,23 @@
 
 #menu .icon-and-actions .actions ul{
     list-style: none;
+    display: flex;
+    flex-direction: row;
 }
 
 #menu .icon-and-actions .actions ul li {
-    display: inline;
-    margin-left: 5px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
     -webkit-app-region: no-drag;
+    height: 30px;
+    width: 60px;
+}
+
+#menu .icon-and-actions .actions ul li:hover {
+    background-color: #3a3a3a;
+    cursor: default;
 }
 
 #menu .window-actions {

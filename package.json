@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electromon main.js  --ignore static"
+    "start": "electromon src/main.js  --ignore static"
   },
   "author": "",
   "license": "ISC",
