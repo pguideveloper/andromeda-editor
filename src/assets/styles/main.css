@@ -12,7 +12,12 @@ body {
     width: 100%;
     background-color: #222;
     height: 30px;
-    display: block;
+    color: #fff;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size: 14px;
 }
 
 #editor {
